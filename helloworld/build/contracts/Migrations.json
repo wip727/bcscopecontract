@@ -1,0 +1,133 @@
+{
+  "contract_name": "Migrations",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "new_address",
+          "type": "address"
+        }
+      ],
+      "name": "upgrade",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "last_completed_migration",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "completed",
+          "type": "uint256"
+        }
+      ],
+      "name": "setCompleted",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b60008054600160a060020a03191633600160a060020a03161790555b5b6101a0806100396000396000f300606060405263ffffffff60e060020a6000350416630900f0108114610042578063445df0ac146100605780638da5cb5b14610082578063fdacd576146100ae575bfe5b341561004a57fe5b61005e600160a060020a03600435166100c3565b005b341561006857fe5b61007061013d565b60408051918252519081900360200190f35b341561008a57fe5b610092610143565b60408051600160a060020a039092168252519081900360200190f35b34156100b657fe5b61005e600435610152565b005b6000805433600160a060020a03908116911614156101375781905080600160a060020a031663fdacd5766001546040518263ffffffff1660e060020a02815260040180828152602001915050600060405180830381600087803b151561012557fe5b6102c65a03f1151561013357fe5b5050505b5b5b5050565b60015481565b600054600160a060020a031681565b60005433600160a060020a039081169116141561016f5760018190555b5b5b505600a165627a7a723058207fb24d7909ffb3d3aa1baf2dd78cf1f0890d83429c8bc26fa8f172eae33726bf0029",
+  "networks": {
+    "1499654877447": {
+      "events": {},
+      "links": {},
+      "address": "0x1f9d75af9ad3722410d8338aee61cac96db82c25",
+      "updated_at": 1499659850362
+    },
+    "1499978509750": {
+      "events": {},
+      "links": {},
+      "address": "0x0b20c7d8cddeeed0b899699d2a314e5f3be03040",
+      "updated_at": 1499978602271
+    },
+    "1500000484912": {
+      "events": {},
+      "links": {},
+      "address": "0x6f2998afe2d95c3aed53f2cd45dc98cecae857c7",
+      "updated_at": 1500000530946
+    },
+    "1500004244438": {
+      "events": {},
+      "links": {},
+      "address": "0xb276166e8a322657f2d93f2ce26050d3d85340d1",
+      "updated_at": 1500004253813
+    },
+    "1500004841657": {
+      "events": {},
+      "links": {},
+      "address": "0xff76ec96662c0e73836c0899ea29f7618da45fe7",
+      "updated_at": 1500004851105
+    },
+    "1500701232461": {
+      "events": {},
+      "links": {},
+      "address": "0xabf4fc7b07cb95b675a874cadf64a353def9c718",
+      "updated_at": 1500701280093
+    },
+    "1501126463138": {
+      "events": {},
+      "links": {},
+      "address": "0xed44d2d7e414a7eec41806e36962642b0a0b93f5",
+      "updated_at": 1501126476360
+    },
+    "1501128892669": {
+      "events": {},
+      "links": {},
+      "address": "0x758b2293e7ae42e89a465ef4263bc2e9fc9525c5",
+      "updated_at": 1501128953871
+    },
+    "1501129135051": {
+      "events": {},
+      "links": {},
+      "address": "0x94542220a4c30d67bc1325b011a4a148d0604837",
+      "updated_at": 1501129437069
+    },
+    "1501129964637": {
+      "events": {},
+      "links": {},
+      "address": "0x6c75a1957af3d56aa1cfcd4c954924891b34a309",
+      "updated_at": 1501130190978
+    },
+    "1501258802248": {
+      "events": {},
+      "links": {},
+      "address": "0xf73fc502967ad0c948bbc931411cc15e25c170d0",
+      "updated_at": 1501258810876
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1501258810876
+}

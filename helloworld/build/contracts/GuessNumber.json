@@ -1,0 +1,155 @@
+{
+  "contract_name": "GuessNumber",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "creator",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getPot",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "answer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "input",
+          "type": "uint256"
+        }
+      ],
+      "name": "guess",
+      "outputs": [
+        {
+          "name": "success",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": true,
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "_guesser",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "_number",
+          "type": "uint256"
+        }
+      ],
+      "name": "Guessed",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x60606040525b60008054600160a060020a03191633600160a060020a031617905560096001555b5b6101a2806100366000396000f300606060405263ffffffff60e060020a60003504166302d05d3f8114610042578063403c9fa81461006e57806385bb7d69146100905780639189fec1146100b2575bfe5b341561004a57fe5b6100526100d9565b60408051600160a060020a039092168252519081900360200190f35b341561007657fe5b61007e6100e8565b60408051918252519081900360200190f35b341561009857fe5b61007e6100f7565b60408051918252519081900360200190f35b34156100ba57fe5b6100c56004356100fd565b604080519115158252519081900360200190f35b600054600160a060020a031681565b600160a060020a033016315b90565b60015481565b60408051600160a060020a03331681526020810183905281516000927fd054e269f794eee3d7db6c8bddeaa904eed80a2ea90eaca4d342fd402d672765928290030190a160015482141561016d57604051600160a060020a0333169060009060079082818181858883f150505050505b5060015b9190505600a165627a7a72305820140e1ae7bf29aa11de05dfb42000987abc0fee3e43ce586f7274c60f65a47ebf0029",
+  "networks": {
+    "1500000484912": {
+      "events": {},
+      "links": {},
+      "address": "0x85314d143dc6a1b562d864c81414c3d1b6d50f65",
+      "updated_at": 1500000530946
+    },
+    "1500004244438": {
+      "events": {},
+      "links": {},
+      "address": "0xe960efa41490c1c6180504ecd1459188c93fe54f",
+      "updated_at": 1500004253813
+    },
+    "1500004841657": {
+      "events": {},
+      "links": {},
+      "address": "0xfe751e85f353a41cc909e03788e0c349ef334ac9",
+      "updated_at": 1500004851105
+    },
+    "1500701232461": {
+      "events": {},
+      "links": {},
+      "address": "0x9fb3023ae1891562d27bca1704d88b74ee22fe54",
+      "updated_at": 1500701280093
+    },
+    "1501126463138": {
+      "events": {},
+      "links": {},
+      "address": "0x6c84b976a1d7f8fc3d4bcba3b309de955f982833",
+      "updated_at": 1501126476360
+    },
+    "1501129135051": {
+      "events": {},
+      "links": {},
+      "address": "0x9237ba548a2f8bfb30f1650316e00a82496d12a7",
+      "updated_at": 1501129437059
+    },
+    "1501129964637": {
+      "events": {},
+      "links": {},
+      "address": "0x8f48b86906616e52aca7c122e896b2a7a0308efc",
+      "updated_at": 1501130190977
+    },
+    "1501258802248": {
+      "events": {
+        "0xd054e269f794eee3d7db6c8bddeaa904eed80a2ea90eaca4d342fd402d672765": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "_guesser",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_number",
+              "type": "uint256"
+            }
+          ],
+          "name": "Guessed",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x560ed32db12aee743383ee3c5fd1c2e48595628c",
+      "updated_at": 1501258810874
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1501258810874
+}
