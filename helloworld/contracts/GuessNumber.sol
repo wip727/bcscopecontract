@@ -1,7 +1,7 @@
 pragma solidity ^0.4.0; 
 contract GuessNumber {
     address public creator; // data-type 'address'
-    uint public answer; // data-type 'unit'
+    uint private answer; // data-type 'unit'
 
     event Guessed(address _guesser, uint _number);
 
@@ -14,12 +14,17 @@ contract GuessNumber {
         
         Guessed(msg.sender, input);
 	if (input == answer) {
-    	   msg.sender.send(7); // send 1 ETH to creator
+    	   msg.sender.send(7); // send 7 Wei to winner
         }
         return true;   
     }
 
-    function getPot() constant returns (uint) {
+    function changeAnswer(uint newAnswer) {
+        if (msg.sender != creator) throw; // only creator can set answer
+        answer = newAnswer;
+    }
+
+    function getBal() constant returns (uint) {
         return this.balance;
     }
 }
